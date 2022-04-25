@@ -1,15 +1,15 @@
-.Container{
-    width: 100vw;
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
+.ContainerTopBar{
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
     z-index: 999;
+    background-color: white;
     .navBarWrapper{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 100%;
-        padding:0px 20px;
+        padding:0 20px;
         .TopLeft{
             cursor: pointer;
             h2{
@@ -38,10 +38,12 @@
                     align-items: center;
                     justify-content: center;
                     top: -5px;
-                    width: 15px;
-                    height: 15px;
-                    background: rgb(207, 79, 79);
+                    width: 14px;
+                    color: whitesmoke;
+                    height: 14px;
+                    background: rgb(205, 14, 14);
                     border-radius: 50%;
+                    font-size: 13px;
                 }
             }
         }
