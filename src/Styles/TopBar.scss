@@ -1,0 +1,49 @@
+.Container{
+    width: 100vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 999;
+    .navBarWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        padding:0px 20px;
+        .TopLeft{
+            cursor: pointer;
+            h2{
+                font-weight:900;
+                color: darkblue;
+            }
+        }
+        .TopRight{
+            flex: 2;
+            display: flex;
+            width: 100%;
+            justify-content: flex-end;
+            img{
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+            .TopBarIconContainer{
+                position: relative;
+                cursor: pointer;
+                margin-right: 10px;
+                .IconBadge{
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    top: -5px;
+                    width: 15px;
+                    height: 15px;
+                    background: rgb(207, 79, 79);
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
