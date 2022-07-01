@@ -1,12 +1,10 @@
-.Container{
+.Containerr{
     flex: 1;
-    height: calc(100vh - 60px);
-    position: sticky;
+    height: calc(100vh - 50px);
     background-color: rgb(251, 251, 255);
-    padding: 0 20px;
-    padding-top: 13px;
+    position: sticky;
     top: 50px;
-    font-size: 15px;
+    padding-left: 22px;
     .sideBarWrapper{
         color: #555;
         .sideBarMenu{
