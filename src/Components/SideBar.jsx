@@ -15,7 +15,7 @@ import ReportIcon from '@mui/icons-material/Report';
 
 const SideBar = () => {
   return (
-    <div className='Container'>
+    <div className='Containerr'>
         <div className="sideBarWrapper">
             <div className="sideBarMenu">
                 <span className="sideBarTitle">Dashboard</span>
@@ -43,12 +43,14 @@ const SideBar = () => {
             <div className="sideBarMenu">
             <   span className="sideBarTitle">Quick Menu</span>
                 <ul className="sideBarList">
-                    <li className="sideBarListItem">
-                       <PersonOutlineIcon className='sideIcon'/>
-                       <span>
-                           Users
-                        </span>
-                    </li>
+                    
+                        <li className="sideBarListItem">
+                        <PersonOutlineIcon className='sideIcon'/>
+                        <span>
+                            Users
+                            </span>
+                        </li>
+                   
                     <li className="sideBarListItem">
                        <StorefrontIcon className='sideIcon'/>
                        <span>
